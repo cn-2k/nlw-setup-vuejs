@@ -1,0 +1,14 @@
+{
+	"extends": [ 
+		"plugin:tailwindcss/recommended"
+	],
+	"plugins": [
+		"tailwindcss"
+	],
+	"rules": {
+		"semi": "off",
+		"@typescript-eslint/semi": ["error", "always"],
+		"no-unexpected-multiline": "error"
+	},
+	"ignorePatterns": ["auto-imports.d.ts", "components.d.ts"]
+}
