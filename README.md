@@ -45,13 +45,22 @@ Siga as etapas seguintes para instalar e executar o projeto backend:
    npm install
    ```
    
-2. Execute o servidor em modo desenvolvimento:
+2. Altere o nome da variável de ambiente ``.env.example`` para ``.env``
+
+ 
+3. Execute o seguinte comando para carregar a variável de ambiente:
+
+   ```js
+   npx prisma generate
+   ``` 
+   
+   
+3. Execute o servidor em modo desenvolvimento:
 
    ```js
    npm run dev
    ``` 
    
-Caso tiver problemas com o prisma, execute o comando (dentro da pasta): ``npx prisma migrate``
 
 ### Frontend
 
